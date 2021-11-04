@@ -23,6 +23,8 @@ def downloadImage(url: str):
 
             print('Image successfully Downloaded: ', filename)
             return filename
+        else:
+            raise Exception("Could not download image")
     except:
         raise Exception("Could not download image")
 
