@@ -6,7 +6,7 @@ import os
 
 def downloadImage(url: str):
     try:
-        filename = f'{random.randint(0, 10000)}{random.randint(0, 10000)}{random.randint(0, 10000)}.jpg'
+        filename = f'{random.randint(0, 10000)}{random.randint(0, 10000)}{random.randint(0, 10000)}.png'
         print(filename)
         # Open the url image, set stream to True, this will return the stream content.
         r = requests.get(url)
