@@ -14,6 +14,8 @@ def index():
         if loc is None:
             abort(400)
         res = getTag(loc)
+        if res is None:
+            abort(400)
         deleteImage(loc)
         return jsonify(res)
     except:
