@@ -17,7 +17,9 @@ def index():
         if res is None:
             abort(400)
         deleteImage(loc)
-        return jsonify(res)
+        response = jsonify(res)
+        response.headers.add("Access-Control-Allow-Origin", "*")
+        return response
     except:
         abort(400)
 
