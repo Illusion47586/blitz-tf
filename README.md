@@ -12,7 +12,7 @@ You get a json
 }
 ```
 
-In folder Model Training
+In the folder Model Training
 
 Tag Generator.ipynb - This file is used to create the Model for Clothes Tag Generation.
 
