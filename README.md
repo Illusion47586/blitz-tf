@@ -11,3 +11,7 @@ You get a json
   "color": {COLOR}
 }
 ```
+
+In folder Model Training
+Tag Generator.ipynb - This file is used to create the Model for Clothes Tag Generation.
+makeCSV.py - This file is used to create the dataset by scraping Myntra Website.
